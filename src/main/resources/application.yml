@@ -9,3 +9,9 @@ spring:
   mvc.view:
     prefix: /WEB-INF/
     suffix: .jsp
+
+logging.level:
+  root: INFO
+  org.superbiz.moviefun: DEBUG
+  org.superbiz.moviefun.albums: DEBUG
+  org.superbiz.moviefun.movies: DEBUG
